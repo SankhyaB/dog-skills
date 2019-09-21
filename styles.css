@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+hr{
+
+width: 10%;
+border-top: 8px dotted lightgray;
+
+}
+
+h1 {
+  font-size: 50px;
+  margin: 50px auto 0 auto;
+  font-family: 'Bungee Inline', cursive;
+  color: #66BFBF;
+  line-height: 0.35;
+}
+
+p {
+  font-size: 2.5rem;
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Amatic SC', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 { font-size: 22px;
+  color: #11999E;
+  font-family: 'Bungee Inline', cursive;
+}
+
+h2 { font-size: 40px;
+  color: #11999E;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.top-container {margin: 0;
+  padding-top: 50px;
+
+}
+
+.cloudA {
+  height: 140px;
+  width: 140px;
+  position: relative;
+  left: 300px;
+  bottom: 20px;
+}
+
+.mountain {
+  display: inline-block;
+  height: 400px;
+  width: 500px;
+  padding-bottom: 30px;
+}
+
+.cloudB {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  left: 200px;
+}
+
+.dog-pic {
+  padding-top: 50px;
+  height: 300px;
+  width: 500px;
+  border-radius: 60%;
+}
+
+
+.youtube {
+  height: 30px;
+  width: 30px;
+}
+
+
+.middle-container {}
+
+.bottom-container {
+  background-color: lightgray;
+  margin-top: 50px   ;
+
+}
+
+.footer-link {
+  margin: auto;
+  font-size: 25px;
+  text-decoration: none;
+  color: #11999E;
+}
+.footer-link:hover
+{
+
+  color: darkblue;
+}
+.skill-row
+{
+
+  width: 50%;
+  margin: auto;
+padding-bottom: 100px;
+padding-top: 60px;
+
+}
+.giffy
+{  float: left;
+  height: 250px;
+  width: 250px;
+  padding-right: 30px;
+}
+.skilltable
+{
+  float: right;
+}
+.dog-eating{
+  height: 225px;
+  width: 225px;
+  float:right;
+
+}
+
+.skills
+{
+font-size: 30px
+}
+.skill-rowpart2
+{  width: 50%;
+  padding-top: 60px;
+  margin: auto;
+
+}
+.work{
+  font-size: 29px;
+  padding-bottom: 20px;
+}
+.woof
+{
+  padding-bottom: 20px;
+}
+.btn
+{  font-size: 35px;
+  text-decoration: none;
+  background-color: gray;
+  border-radius: 12px;
+  color: white;
+margin-bottom: 30px;
+}
+.btn:hover
+{
+  background-color: #eb7070;
+}
+.copyright
+{
+  margin-bottom: 0;
+}
+
+
+/*margin gives the element a little bit of space with the other elements*/
+/*position property talks about modifying the normal html. Whenmoving the element, it DOES NOT affect the position of the other elements,it'll just overwrite them*/
+/*position: relative with respect to itself. absolute: positioning relative to its parent. it deletes that ghost element and other elements occupy that space....
+fixed: it will stay in its position as we scroll down the website.*/
+/*float is used to wrap elements around others in div by using left right anything
+clear is used to not wrap an element if clear = left, it will not wrap with elements floated with the right*/
